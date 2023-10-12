@@ -28,7 +28,7 @@ const Product = ({item}) => {
       <div className="right">
         <h1>T-Shirt</h1>
         <span className='price'>$199</span>
-        <p>dkwnvibbvrouw</p>
+        <p>"Effortless style: our classic tee. Perfect for every day."</p>
         <div className="quantity">
           <button onClick={()=>setQuantity((prev) => prev === 1? 1:prev-1)}>-</button>
           {quantity}
